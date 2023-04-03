@@ -12,7 +12,7 @@ function App() {
       </Link>
       <Routes>
       <Route 
-                path="/" 
+                path="/7homas7he7ank-react-portfolio"
                 element={<Home />} 
               />
  <Route 
