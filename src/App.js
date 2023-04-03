@@ -8,7 +8,7 @@ function App() {
       {/* alsdf
       <Home/> */}
      <Router>
-      <Link to="/">
+      <Link to="/7homas7he7ank-react-portfolio">
       <h1>Replace with header</h1>
       </Link>
       <Routes>
