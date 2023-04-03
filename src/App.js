@@ -1,0 +1,30 @@
+import logo from './logo.svg';
+import './App.css';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import Home from "./pages/Home.js"
+function App() {
+  return (
+    <div className="App">
+      {/* alsdf
+      <Home/> */}
+     <Router>
+      <Link to="/">
+      <h1>Replace with header</h1>
+      </Link>
+      <Routes>
+      <Route 
+                path="/" 
+                element={<Home />} 
+              />
+ <Route 
+                path="/contact" 
+                element={<h1 >Contact Page</h1>} 
+              />
+      </Routes>
+      <h2>Replace with footer</h2>
+      </Router>
+    </div>
+  );
+}
+
+export default App;
