@@ -13,7 +13,7 @@
   "bugs": {
     "url": "https://github.com/thomascalle/7homas7he7ank-react-portfolio/issues"
   },
-  "homepage": "https://github.com/thomascalle/7homas7he7ank-react-portfolio",
+  "homepage": "https://thomascalle.github.io/7homas7he7ank-react-portfolio",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -22,7 +22,7 @@
     "react-bootstrap": "^2.7.2",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.2.1",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^2.1.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
