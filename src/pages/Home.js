@@ -7,11 +7,11 @@ import Footer from "../components/Footer.js";
 function Home() {
   return (
     <>
-      <Header />
-      <Navigation />
+      {/* <Header /> */}
+      {/* <Navigation /> */}
       <About />
       <Portfolio />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

@@ -12,9 +12,9 @@ function App() {
       <Router>
         <Navigation />
         <div className="container mt-4">
-          <Link to="/7homas7he7ank-react-portfolio">
-            <h1>7homas 𝚽 Calle</h1>
-          </Link>
+          <h1><Link to="/7homas7he7ank-react-portfolio">
+            7homas 𝚽 Calle
+          </Link></h1>
           <Routes>
             <Route path="/7homas7he7ank-react-portfolio" element={<Home />} />
             <Route path="/contact" element={<h1>Contact Page</h1>} />
