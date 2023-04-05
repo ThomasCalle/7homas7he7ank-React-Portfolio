@@ -1,14 +1,13 @@
 {
   "files": {
-    "main.css": "/thomascalle/7homas7he7ank-react-portfolio/static/css/main.073c9b0a.css",
-    "main.js": "/thomascalle/7homas7he7ank-react-portfolio/static/js/main.42f6dab3.js",
-    "static/media/logo.svg": "/thomascalle/7homas7he7ank-react-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/thomascalle/7homas7he7ank-react-portfolio/index.html",
-    "main.073c9b0a.css.map": "/thomascalle/7homas7he7ank-react-portfolio/static/css/main.073c9b0a.css.map",
-    "main.42f6dab3.js.map": "/thomascalle/7homas7he7ank-react-portfolio/static/js/main.42f6dab3.js.map"
+    "main.css": "/7homas7he7ank-React-Portfolio/static/css/main.073c9b0a.css",
+    "main.js": "/7homas7he7ank-React-Portfolio/static/js/main.49fbeb83.js",
+    "index.html": "/7homas7he7ank-React-Portfolio/index.html",
+    "main.073c9b0a.css.map": "/7homas7he7ank-React-Portfolio/static/css/main.073c9b0a.css.map",
+    "main.49fbeb83.js.map": "/7homas7he7ank-React-Portfolio/static/js/main.49fbeb83.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.42f6dab3.js"
+    "static/js/main.49fbeb83.js"
   ]
 }

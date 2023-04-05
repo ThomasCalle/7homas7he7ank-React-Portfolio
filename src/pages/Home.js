@@ -1,16 +1,19 @@
-import About from "../components/About.js"
-import Portfolio from "../components/Portfolio.js"
- 
+import Header from "../components/Header.js";
+import Navigation from "../components/Navigation.js";
+import About from "../components/About.js";
+import Portfolio from "../components/Portfolio.js";
+import Footer from "../components/Footer.js";
 
-function Home(){
+function Home() {
+  return (
+    <>
+      <Header />
+      <Navigation />
+      <About />
+      <Portfolio />
+      <Footer />
+    </>
+  );
+}
 
-
-    return(
-        <>
-        <About />
-        <Portfolio />
-        </>
-    )
-} 
-
-export default Home
+export default Home;

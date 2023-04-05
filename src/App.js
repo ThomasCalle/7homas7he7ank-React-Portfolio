@@ -1,26 +1,26 @@
 import './App.css';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import Home from "./pages/Home.js"
+import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
+import Home from "./pages/Home";
+import React from 'react';
+import Footer from './components/Footer';
+import Navigation from './components/Navigation';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 function App() {
   return (
     <div className="App">
-      {/* alsdf
-      <Home/> */}
-     <Router>
-      <Link to="/7homas7he7ank-react-portfolio">
-      <h1>Replace with header</h1>
-      </Link>
-      <Routes>
-      <Route 
-                path="/7homas7he7ank-react-portfolio"
-                element={<Home />} 
-              />
- <Route 
-                path="/contact" 
-                element={<h1 >Contact Page</h1>} 
-              />
-      </Routes>
-      <h2>Replace with footer</h2>
+      <Router>
+        <Navigation />
+        <div className="container mt-4">
+          <Link to="/7homas7he7ank-react-portfolio">
+            <h1>7homas 𝚽 Calle</h1>
+          </Link>
+          <Routes>
+            <Route path="/7homas7he7ank-react-portfolio" element={<Home />} />
+            <Route path="/contact" element={<h1>Contact Page</h1>} />
+          </Routes>
+        </div>
+        <Footer />
       </Router>
     </div>
   );
