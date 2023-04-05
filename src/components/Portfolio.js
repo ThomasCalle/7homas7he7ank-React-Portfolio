@@ -4,60 +4,60 @@ import Project from "./Project";
 function Portfolio() {
   return (
     <div className="flex-container">
-      <section class="portfolio">
+      <section className="portfolio">
         <h2>Thomas' Chess Blog</h2>
         <Project
           title="Thomas' Chess Blog"
-          imageSrc="path/to/image.gif"
+          imageSrc={`${process.env.PUBLIC_URL}/ThomasChessBlog.GIF`}
           deployedLink="https://thomas-model-view-controller.herokuapp.com/"
           repoLink="https://github.com/ThomasCalle/Thomas-Model-View-Controller-MVC-Tech-Blog"
         />
       </section>
-      <section id="portfolio">
+      <section className="portfolio">
         <h2>Stack Dev Portfolio</h2>
         <Project
           title="Stack Dev Portfolio"
-          imageSrc="path/to/image.gif"
+          imageSrc="/StackDev.JPEG"
           deployedLink="https://thomascalle.github.io/ThomasCalleStackDevPortfolio/"
           repoLink="https://github.com/ThomasCalle/ThomasCalleStackDevPortfolio"
         />
       </section>
-      <section id="portfolio">
+      <section className="portfolio">
         <h2>Online Workday Planner</h2>
         <Project
           title="Online Workday Planner"
-          imageSrc="path/to/image.gif"
+          imageSrc="/WorkDayPlanner.GIF"
           deployedLink="https://thomascalle.github.io/Online-Workday-Planner/"
           repoLink="https://github.com/ThomasCalle/Online-Workday-Planner"
         />
       </section>
-      <section id="portfolio">
-        <h2>Object Oriented Programming SVG Logo Maker</h2>
+      <section className="portfolio">
+        <h2>SQL: Employee Tracker</h2>
         <Project
-          title="Object Oriented Programming SVG Logo Maker"
-          imageSrc="path/to/image.gif"
-          deployedLink="https://github.com/ThomasCalle/Thomas-Object-Oriented-Programming-SVG-Logo-Maker"
-          repoLink="https://github.com/ThomasCalle/Thomas-Object-Oriented-Programming-SVG-Logo-Maker"
+          title="SQL: Employee Tracker"
+          imageSrc="/SQL_Employee_Tracker.gif"
+          deployedLink="https://github.com/ThomasCalle/Thomas-SQL-Employee-Tracker"
+          repoLink="https://github.com/ThomasCalle/Thomas-SQL-Employee-Tracker"
         />
       </section>
-      <section id="portfolio">
+      <section className="portfolio">
         <h2>10 Things to Do in Toronto</h2>
         <Project
           title="10 Things to Do in Toronto"
-          imageSrc="path/to/image.gif"
+          imageSrc="10ThingsToDoInToronto.png"
           deployedLink="https://thomascalle.github.io/10-Things-To-Do-In-Toronto/"
           repoLink="https://github.com/ThomasCalle/10-Things-To-Do-In-Toronto#links"
         />
-        </section>
-        <section id="portfolio">
+      </section>
+      <section className="portfolio">
         <h2>Toronto Weather Dashboard</h2>
         <Project
           title="Toronto Weather Dashboard"
-          imageSrc="path/to/image.gif"
+          imageSrc="Weather.GIF"
           deployedLink="https://thomascalle.github.io/Thomas-Weather-Dashboard/"
           repoLink="https://github.com/ThomasCalle/Thomas-Weather-Dashboard"
         />
-        </section>
+      </section>
     </div>
   );
 }
