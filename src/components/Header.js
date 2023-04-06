@@ -3,7 +3,7 @@ import Navigation from './Navigation';
 function Header() {
   return (
     <header>
-      {/* Insert logo or name */}
+      {/* THOMAS CALLE  */}
       <Navigation />
     </header>
   );

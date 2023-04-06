@@ -28,3 +28,27 @@ body {
   background-color: var(--bg-color);
   color: var(--text-color);
 }
+
+/* ABOUT.JS SECTION */
+
+.about-image {
+  max-width: 100%; /* Ensure the image scales correctly */
+  width: 200px;
+  height: auto;
+  margin-bottom: 20px; /* Add margin-bottom for mobile view */
+}
+
+/* Tablet view */
+@media (min-width: 768px) {
+  .about-image {
+    width: 250px;
+    margin-bottom: 0; /* Remove margin-bottom for tablet view */
+  }
+}
+
+/* Desktop view */
+@media (min-width: 992px) {
+  .about-image {
+    width: 300px;
+  }
+}

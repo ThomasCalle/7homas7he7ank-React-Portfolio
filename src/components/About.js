@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Card, Image } from "react-bootstrap";
 // import Portfolio from "./Portfolio";
-import avatar from '../images/Portfolio_Headshot.png';
+import avatar from "../images/Portfolio_Headshot.png";
 
 function About() {
   return (
@@ -9,12 +9,13 @@ function About() {
       <Container>
         <Row>
           <Col
+            xs={12}
             md={4}
-            className="d-flex justify-content-center align-items-center"
+            className="d-flex justify-content-center align-items-center mb-4 mb-md-0"
           >
-            <Image src={avatar} rounded fluid />
+            <Image src={avatar} rounded fluid className="about-image" />
           </Col>
-          <Col md={8}>
+          <Col xs={12} md={8}>
             <Card>
               <Card.Body>
                 <Card.Title className="text-center mb-4">

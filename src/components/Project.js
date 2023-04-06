@@ -1,14 +1,10 @@
-import React from 'react';
-
+import React from "react";
+// TURN FILE INTO A PARTIAL AND ORGANIZE IT INTO IT'S OWN FOLDER LATER
 function Project(props) {
   return (
     <div className="card">
       <a href={props.deployedLink} target="_blank" rel="noreferrer">
-        <img
-          src={props.imgSrc}
-          className="card-img-top"
-          alt={props.imgAlt}
-        />
+        <img src={props.imgSrc} className="card-img-top" alt={props.imgAlt} />
       </a>
       <div className="card-body">
         <h5 className="card-title">{props.title}</h5>
