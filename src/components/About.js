@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col, Card, Image } from "react-bootstrap";
 // import Portfolio from "./Portfolio";
 import avatar from "../images/Portfolio_Headshot.png";
+import "../style/About.css";
 
 function About() {
   return (

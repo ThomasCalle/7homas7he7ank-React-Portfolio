@@ -1,6 +1,5 @@
 import React from 'react';
-import '../App.css';
-// src/components/navigation.js
+import '../style/Navigation.css';
 import { Navbar, Container, Nav } from 'react-bootstrap';
 
 const Navigation = () => {

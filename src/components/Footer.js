@@ -1,6 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faYoutube, faLinkedin, faTiktok } from '@fortawesome/free-brands-svg-icons';
+import "../style/Footer.css";
 
 const socials = [
   {

@@ -1,4 +1,7 @@
 import React from "react";
+import "../style/Project.css";
+
+
 // TURN FILE INTO A PARTIAL AND ORGANIZE IT INTO IT'S OWN FOLDER LATER
 function Project(props) {
   return (
@@ -13,7 +16,7 @@ function Project(props) {
           href={props.deployedLink}
           target="_blank"
           rel="noreferrer"
-          className="btn btn-primary"
+          className="btn btn-deployed"
         >
           Deployed App
         </a>
@@ -21,7 +24,7 @@ function Project(props) {
           href={props.githubLink}
           target="_blank"
           rel="noreferrer"
-          className="btn btn-secondary"
+          className="btn btn-repo"
         >
           GitHub Repo
         </a>
