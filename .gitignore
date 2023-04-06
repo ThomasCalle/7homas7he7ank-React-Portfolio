@@ -1,8 +1,16 @@
-# THE FOUR HORSEMEN
+# THE FOUR HORSEMEN + THE APOCAPALYSE
 node_modules
 .node_modules
 .env
 .DS_Store
+/.pnp
+.pnp.js
+/coverage
+/build
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
 # Logs
 logs

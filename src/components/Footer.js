@@ -7,25 +7,25 @@ const socials = [
     name: 'GitHub',
     url: 'https://github.com/ThomasCalle',
     icon: faGithub,
-    color: 'green'
+    color: 'orange'
   },
   {
     name: 'YouTube',
     url: 'https://www.youtube.com/@thoscalle4104',
     icon: faYoutube,
-    color: 'purple'
+    color: '#cc0000'
   },
   {
     name: 'LinkedIn',
     url: 'https://www.linkedin.com/in/thomas-calle/',
     icon: faLinkedin,
-    color: 'orange'
+    color: '#3683f4'
   },
   {
     name: 'TikTok',
     url: 'https://www.tiktok.com/@thoscalle?lang=en',
     icon: faTiktok,
-    color: 'orange'
+    color: 'white'
   }
 ];
 

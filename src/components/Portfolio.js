@@ -1,5 +1,6 @@
 import React from "react";
 import Project from "./Project";
+import Weather from "../images/Weather.GIF";
 
 function Portfolio() {
   return (
@@ -17,7 +18,7 @@ function Portfolio() {
         <h2>Stack Dev Portfolio</h2>
         <Project
           title="Stack Dev Portfolio"
-          imageSrc="/StackDev.JPEG"
+          imageSrc="/."
           deployedLink="https://thomascalle.github.io/ThomasCalleStackDevPortfolio/"
           repoLink="https://github.com/ThomasCalle/ThomasCalleStackDevPortfolio"
         />
@@ -53,7 +54,7 @@ function Portfolio() {
         <h2>Toronto Weather Dashboard</h2>
         <Project
           title="Toronto Weather Dashboard"
-          imageSrc="Weather.GIF"
+          imgSrc={Weather}
           deployedLink="https://thomascalle.github.io/Thomas-Weather-Dashboard/"
           repoLink="https://github.com/ThomasCalle/Thomas-Weather-Dashboard"
         />
