@@ -17,7 +17,7 @@ function Portfolio() {
         {[
           {
             title: "Thomas' Chess Blog",
-            description: "CMS-style Model View Controller Blog",
+            description: "CMS-Style Model View Controller Blog",
             imgSrc: ThomasChessBlog,
             deployedLink: "https://thomas-model-view-controller.herokuapp.com/",
             githubLink:
@@ -69,7 +69,7 @@ function Portfolio() {
           },
         ].map((project, index) => (
           <div className="col-12 col-md-6 col-lg-4 my-2" key={index}>
-            <h2>{project.title}</h2>
+            {/* <h2>{project.title}</h2> */}
             <Project
               title={project.title}
               description={project.description}
