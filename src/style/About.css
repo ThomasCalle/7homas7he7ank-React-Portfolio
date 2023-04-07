@@ -6,6 +6,23 @@
     height: auto;
     margin-bottom: 20px; /* Add margin-bottom for mobile view */
   }
+
+  /* Font styling for text */
+.card-text {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  
+  /* Font styling for header */
+  .card-title {
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+  }
   
   /* Tablet view */
   @media (min-width: 768px) {

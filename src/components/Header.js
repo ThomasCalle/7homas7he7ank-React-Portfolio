@@ -1,12 +1,11 @@
-import React from 'react';
-import Navigation from './Navigation';
-function Header() {
-  return (
-    <header>
-      {/* THOMAS CALLE  */}
-      <Navigation />
-    </header>
-  );
-}
+// import React from 'react';
+// import Navigation from './Navigation';
+// function Header() {
+//   return (
+//     <>
+//      <About />
+//     </>
+//   );
+// }
 
-export default Header;
+// export default Header;

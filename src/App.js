@@ -10,22 +10,23 @@ import Navigation from './components/Navigation';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./style/App.css";
 
+
 function App() {
   return (
     <div className="App">
       <Router>
         <Navigation />
         <div className="container mt-4">
-          <h1><Link to="/7homas7he7ank-react-portfolio">
+          {/* <h1><Link to="7homas7he7ank-react-portfolio">
             7homas Calle
-          </Link></h1>
+          </Link></h1> */}
           <Routes>
-            <Route path="/7homas7he7ank-react-portfolio" element={<Home />} />
-            <Route path="/contact" element={<h1>Contact Page</h1>} />
-            <Route path="/about" element={<About />} />
-            <Route path="/portfolio" element={<Portfolio />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/resume" element={<Resume />} />
+            <Route path="7homas7he7ank-react-portfolio" element={<About />} />
+            <Route path="/7homas7he7ank-react-portfolio/home" element={<Home />} />
+            <Route path="7homas7he7ank-react-portfolio/about" element={<About />} />
+            <Route path="7homas7he7ank-react-portfolio/portfolio" element={<Portfolio />} />
+            <Route path="7homas7he7ank-react-portfolio/contact" element={<Contact />} />
+            <Route path="7homas7he7ank-react-portfolio/resume" element={<Resume />} />
           </Routes>
         </div>
         <Footer />
