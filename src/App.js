@@ -22,11 +22,11 @@ function App() {
           </Link></h1> */}
           <Routes>
             <Route path="7homas7he7ank-React-Portfolio" element={<About />} />
-            <Route path="/7homas7he7ank-react-portfolio/home" element={<Home />} />
-            <Route path="7homas7he7ank-react-portfolio/about" element={<About />} />
-            <Route path="7homas7he7ank-react-portfolio/portfolio" element={<Portfolio />} />
-            <Route path="7homas7he7ank-react-portfolio/contact" element={<Contact />} />
-            <Route path="7homas7he7ank-react-portfolio/resume" element={<Resume />} />
+            <Route path="/7homas7he7ank-React-Portfolio/home" element={<Home />} />
+            <Route path="7homas7he7ank-React-Portfolio/about" element={<About />} />
+            <Route path="7homas7he7ank-React-Portfolio/portfolio" element={<Portfolio />} />
+            <Route path="7homas7he7ank-React-Portfolio/contact" element={<Contact />} />
+            <Route path="7homas7he7ank-React-Portfolio/resume" element={<Resume />} />
           </Routes>
         </div>
         <Footer />
