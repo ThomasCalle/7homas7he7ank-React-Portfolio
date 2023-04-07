@@ -1,8 +1,6 @@
 import React from "react";
 import "../style/Project.css";
 
-
-// TURN FILE INTO A PARTIAL AND ORGANIZE IT INTO IT'S OWN FOLDER LATER
 function Project(props) {
   return (
     <div className="card">

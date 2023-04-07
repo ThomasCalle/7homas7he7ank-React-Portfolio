@@ -4,8 +4,7 @@ import "../style/Resume.css";
 
 function Resume() {
   return (
-    <section id="resume" className="mb-30"> 
-    {/* create an mb-30 to create margin bottom to push the resume down */}
+    <section id="resume" className="resume-margin"> 
       <Container className="resume-section">
         <Row>
           <Col className="text-center">

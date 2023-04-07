@@ -103,6 +103,12 @@ body {
       height: auto;
     }
   }  
+/* 
+  .portfolio-wrapper {
+    margin-top: 2rem;
+    margin-bottom: 6rem;
+  } */
+  
   
   /* Tablet view */
   /* @media (min-width: 768px) {
