@@ -7,16 +7,6 @@
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30' width='30' height='30' fill='%23fff'%3e%3cpath d='M4 7h22v3H4zM4 15h22v3H4zM4 23h22v3H4z'/%3e%3c/svg%3e");
   }
   
-  /* .theme-light {
-    --bg-color: #f8f9fa;
-    --text-color: #212529;
-  }
-  
-  .theme-dark {
-    --bg-color: #343a40;
-    --text-color: #f8f9fa;
-  } */
-  
   body {
     background-color: var(--bg-color);
     color: var(--text-color);

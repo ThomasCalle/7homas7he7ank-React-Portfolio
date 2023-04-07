@@ -34,7 +34,7 @@ const Footer = () => {
   return (
     <footer className="footer mt-auto py-3 bg-dark text-white">
       <div className="container">
-        <section className="social-icons-wrapper d-flex flex-column flex-md-row justify-content-center my-3">
+        <section className="social-icons-wrapper d-flex flex-md-row justify-content-center my-3">
           {socials.map(({ name, url, icon, color }) => (
             <div key={name} className="d-flex flex-column align-items-center mx-md-2 transparent-bg">
               <a href={url} className={`icon ${name}`} target="_blank" rel="noreferrer">
