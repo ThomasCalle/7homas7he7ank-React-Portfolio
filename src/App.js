@@ -21,7 +21,7 @@ function App() {
             7homas Calle
           </Link></h1> */}
           <Routes>
-            <Route path="7homas7he7ank-react-portfolio" element={<About />} />
+            <Route path="7homas7he7ank-React-Portfolio" element={<About />} />
             <Route path="/7homas7he7ank-react-portfolio/home" element={<Home />} />
             <Route path="7homas7he7ank-react-portfolio/about" element={<About />} />
             <Route path="7homas7he7ank-react-portfolio/portfolio" element={<Portfolio />} />
