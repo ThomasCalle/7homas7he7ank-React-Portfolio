@@ -103,25 +103,31 @@ body {
       height: auto;
     }
   }  
-/* 
+
   .portfolio-wrapper {
-    margin-top: 2rem;
-    margin-bottom: 6rem;
-  } */
+    margin-top: 3rem;
+    margin-bottom: 20rem;
+  }
   
   
   /* Tablet view */
-  /* @media (min-width: 768px) {
+  /* @media (max-width: 768px) {
     .card {
       width: 250px;
-      margin-bottom: 0;
+      margin-bottom: 0px;
+    }
+    .portfolio-wrapper{
+      margin-bottom: 25rem;
     }
   } */
   
   /* Desktop view */
-  /* @media (min-width: 992px) {
+  /* @media (max-width: 992px) {
     .card {
       width: 300px;
+    }
+    .portfolio-wrapper {
+      margin-bottom: 20rem;
     }
   } */
   

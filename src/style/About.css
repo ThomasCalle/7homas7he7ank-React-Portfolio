@@ -23,12 +23,17 @@
     font-weight: bold;
     text-align: center;
   }
+
+#about{
+  margin-bottom: 12rem;
+  }
+
   
   /* Tablet view */
   @media (min-width: 768px) {
     .about-image {
       width: 250px;
-      margin-bottom: 0; /* Remove margin-bottom for tablet view */
+      margin-bottom: 0;
     }
   }
   
