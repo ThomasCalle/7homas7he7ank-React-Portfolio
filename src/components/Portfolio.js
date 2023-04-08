@@ -44,13 +44,13 @@ function Portfolio() {
                 "https://github.com/ThomasCalle/Online-Workday-Planner",
             },
             {
-              title: "Java Script: WEB API",
+              title: "Java Script: WEB API Quiz",
               description: "Dynamically updated HTML & CSS Web API quiz game.",
               imgSrc: WebAPI,
               deployedLink:
-                "https://github.com/ThomasCalle/Thomas-SQL-Employee-Tracker",
+                "https://thomascalle.github.io/JavaScript_Interview_Assessment/",
               githubLink:
-                "https://github.com/ThomasCalle/Thomas-SQL-Employee-Tracker",
+                "https://github.com/ThomasCalle/JavaScript_Interview_Assessment",
             },
             {
               title: "10 Things to Do in Toronto",
