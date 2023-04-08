@@ -1,4 +1,4 @@
-# Module 20 React: 7homas7he7ank React Portfolio
+# 7homas7he7ank React Portfolio
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -66,11 +66,11 @@ WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
 ```
 
-## GIF:
+## 7homas7he7ank React Portfolio GIF:
 ### Figure 1. GIF.
 
 #### The following animation demonstrates the application functionality:
-![](./client/src/assets/images/.GIF)
+![](./src/images/7homas7he7ank.GIF)
 
 ## Usage Instructions:
 1. Navigate to the deployed application link.
@@ -86,9 +86,9 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 [GitHub Repository:](https://github.com/ThomasCalle/7homas7he7ank-React-Portfolio)
 
 
-## Screenshots:
+## 7homas7he7ank React Portfolio Screenshots:
 ### Figure 1. Deployed Application Screenshot.
-![](./client/src/assets/images/.png)
+![](./src/images/7homas7he7ank_Screenshot.png)
 
 ## Installation Process:
 1. Clone the Repository from GitHub (or) Download Zip Folder from Repository from GitHub.

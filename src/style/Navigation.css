@@ -12,4 +12,10 @@
     color: var(--text-color);
   }
   
-  
+.nav-link-highlight:hover,
+.nav-link-highlight:focus {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  background-color: transparent;
+
+}
