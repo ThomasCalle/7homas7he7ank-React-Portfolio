@@ -5,6 +5,7 @@ import "../style/About.css";
 
 function About() {
   return (
+    // About section
     <section id="about" className="py-5">
       <h1 className="about-heading">About Me</h1>
       <Container>
@@ -56,4 +57,5 @@ function About() {
   );
 }
 
+// Export About
 export default About;

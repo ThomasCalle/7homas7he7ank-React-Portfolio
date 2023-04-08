@@ -3,9 +3,10 @@ import '../style/Navigation.css';
 import { Navbar, Container, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
-
+// Navigation component
 const Navigation = () => {
   return (
+    // Bootstrap Navbar
     <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
       <Container>
           <Navbar.Brand as={Link} to="/7homas7he7ank-react-portfolio/">Thomas Calle</Navbar.Brand>

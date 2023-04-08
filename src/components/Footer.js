@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faYoutube, faLinkedin, faTiktok } from '@fortawesome/free-brands-svg-icons';
 import "../style/Footer.css";
 
+// Array of social media objects with name, url, icon and color
 const socials = [
   {
     name: 'GitHub',
@@ -30,6 +31,7 @@ const socials = [
   }
 ];
 
+// Footer component
 const Footer = () => {
   return (
     <footer className="footer mt-auto py-3 bg-dark text-white">

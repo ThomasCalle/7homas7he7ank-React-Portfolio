@@ -1,13 +1,13 @@
+// Importing necessary modules and components
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import "../style/Resume.css";
-import PDF from "../documentation/ThomasCalleResumeMay(2022).pdf"; 
+import PDF from "../documentation/ThomasCalleResumeMay(2022).pdf";
 
-
-
+// Resume component
 function Resume() {
   return (
-    <section id="resume" className="resume-margin"> 
+    <section id="resume" className="resume-margin">
       <Container className="resume-section">
         <Row>
           <Col className="text-center">

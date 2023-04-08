@@ -6,9 +6,10 @@ import { faChessKnight as solid } from "@fortawesome/free-solid-svg-icons";
 import { Container, Row, Col } from "react-bootstrap";
 import "../style/Header.css";
 
-
+// Header component
 function Header() {
   return (
+    // Header component
     <>
       <Container fluid className="bg-dark">
         <Row className="justify-content-center">
