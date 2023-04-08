@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import "../style/Resume.css";
-import PDF from '../resume/ThomasCalleResumeMay(2022).pdf'; 
+import PDF from "../documentation/ThomasCalleResumeMay(2022).pdf"; 
 
 
 

@@ -98,7 +98,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 ## Built With:
 - Saiyan Pride
 - Dynamic JavaScript
-- How To Create React.md: [Click to Preview Document](./HowToCreateReact.md)
+- How To Create React.md: [Click to Preview Document](./src/documentation/HowToCreateReact.md)
 - JSON: [JSON](https://www.npmjs.com/package/json)
 - Mongoose: [7.0.3](https://www.npmjs.com/package/mongoose)
 - Express: [4.18.2](https://www.npmjs.com/package/express)
