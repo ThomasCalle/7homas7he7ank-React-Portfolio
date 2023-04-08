@@ -38,12 +38,11 @@ body {
 /* Set flex grow and padding for main container element */
 .main-container {
   flex-grow: 1;
-  padding-top: 6em;
+  padding-top: 5em;
 }
 /* Set color, padding, and text alignment for footer element */
 .footer {
   color: #fff;
-  padding: 1rem 0;
   text-align: center;
 }
 /* Set display, flex direction, and wrap for flex container element */

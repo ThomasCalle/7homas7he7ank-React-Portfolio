@@ -34,9 +34,9 @@ const socials = [
 // Footer component
 const Footer = () => {
   return (
-    <footer className="footer py-3 bg-dark text-white">
-      <div className="container">
-        <section className="social-icons-wrapper d-flex flex-md-row justify-content-center my-3">
+    <footer className="footer bg-dark text-white">
+      <div className="footer-container">
+        <section className="social-icons-wrapper d-flex flex-md-row justify-content-center">
           {socials.map(({ name, url, icon, color }) => (
             <div
               key={name}
@@ -62,9 +62,9 @@ const Footer = () => {
           ))}
         </section>
         <section className="form-footer">
-          <h5 className="text-center mb-0">Designed with ⏳ by Thomas Calle</h5>
-          <p className="text-center mb-0">
-            <h6>&copy; {new Date().getFullYear()} All rights reserved.</h6>
+        <h5 className="designer-text">Designed with ⏳ by Thomas Calle</h5>
+          <p>
+          <h6 className="copyright-text">&copy; {new Date().getFullYear()} All rights reserved.</h6>
           </p>
         </section>
       </div>
