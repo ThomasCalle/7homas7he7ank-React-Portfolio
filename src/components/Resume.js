@@ -1,6 +1,9 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import "../style/Resume.css";
+import PDF from '../resume/ThomasCalleResumeMay(2022).pdf'; 
+
+
 
 function Resume() {
   return (
@@ -8,9 +11,9 @@ function Resume() {
       <Container className="resume-section">
         <Row>
           <Col className="text-center">
-            <h2>Resume</h2>
+            <h1>Resume</h1>
             <hr className="star-primary" />
-            <Button variant="dark" href="ThomasCalleReactPortfolio(2023).pdf" download>
+            <Button variant="dark" href={PDF} download>
               Download Resume
             </Button>
           </Col>
@@ -43,7 +46,7 @@ function Resume() {
             <hr className="star-secondary" />
             <div className="resume-item">
               <h4>Bachelor of Science in Computer Science</h4>
-              <h5>University of XYZ, 2018-2022</h5>
+              <h5>University of Toronto, 2020-2024</h5>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 cursus bibendum magna, vitae dapibus felis ultricies ut. Sed ac
@@ -58,8 +61,8 @@ function Resume() {
             <h3>Work Experience</h3>
             <hr className="star-secondary" />
             <div className="resume-item">
-              <h4>Frontend Developer</h4>
-              <h5>ABC Company, 2022-present</h5>
+              <h4>Full-Stack Developer, Elden Lord</h4>
+              <h5>The Lands Between, 2022-present</h5>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 cursus bibendum magna, vitae dapibus felis ultricies ut. Sed ac
@@ -69,7 +72,7 @@ function Resume() {
             </div>
             <div className="resume-item">
               <h4>Web Developer Intern</h4>
-              <h5>DEF Inc., Summer 2021</h5>
+              <h5>DELL CND Inc., Summer 2022-2023</h5>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 cursus bibendum magna, vitae dapibus felis ultricies ut. Sed ac

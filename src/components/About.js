@@ -1,12 +1,12 @@
 import React from "react";
 import { Container, Row, Col, Card, Image } from "react-bootstrap";
-// import Portfolio from "./Portfolio";
 import avatar from "../images/Portfolio_Headshot.png";
 import "../style/About.css";
 
 function About() {
   return (
     <section id="about" className="py-5">
+      <h1 className="about-heading">About Me</h1>
       <Container>
         <Row>
           <Col
@@ -20,9 +20,6 @@ function About() {
             <Card>
               <Card.Body>
                 <Card.Title className="text-center mb-4">
-                  <p>
-                    
-                  </p>
                   About Thomas Calle
                 </Card.Title>
                 <Card.Text>

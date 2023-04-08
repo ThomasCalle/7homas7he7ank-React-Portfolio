@@ -1,7 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from "./components/Header";
-import Navigation from './components/Navigation';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
@@ -15,8 +14,9 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Navigation />
-        <Header/>
+      <Header/>
+        {/* <Navigation /> */}
+        {/* <Header/> */}
         <div className="container mt-5">
           <Routes>
             <Route path="/7homas7he7ank-React-Portfolio/" element={<About />} />

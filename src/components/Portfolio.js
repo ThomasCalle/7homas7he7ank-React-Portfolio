@@ -12,6 +12,7 @@ import "../style/Portfolio.css";
 function Portfolio() {
   return (
     <div className="portfolio-wrapper">
+      <h1 className="portfolio-title">Portfolio</h1>
       <div className="container">
         <div className="row">
           {[

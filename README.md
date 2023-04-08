@@ -4,7 +4,7 @@
 
 ## Description.
 
-The GitHub-Pages launched application showcases Thomas Calle's React portfolio, which contains (6) highlighted projects of his 12-week Full-Stack Developer boot camp experience at the University of Toronto. The portfolio is designed as a single-page application and demonstrates his proficiency in building modern web applications.
+The GitHub-Pages launched application showcases Thomas Calle's React Portfolio, which contains (6) highlighted projects of his 12-week Full-Stack Developer boot camp experience at the University of Toronto. The portfolio is designed as a single-page application and demonstrates his proficiency in building modern web applications.
 
 
 ## Table of Contents:
@@ -80,7 +80,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 5. Download the developer's resume in the Resume section.
 
 ## Deployed GitHub-Pages Application Link:
-[Deployed Heroku Application Link:](https://thomascalle.github.io/7homas7he7ank-React-Portfolio/)
+[Deployed GitHub-Pages Application Link:](https://thomascalle.github.io/7homas7he7ank-React-Portfolio/)
 
 ## GitHub Repository:
 [GitHub Repository:](https://github.com/ThomasCalle/7homas7he7ank-React-Portfolio)

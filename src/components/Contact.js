@@ -1,7 +1,6 @@
-// import { Container, Row, Col, Form, Button } from 'react-bootstrap';
-// import '../style/Contact.css';
-
 import React, { useState } from 'react';
+import { Container, Row, Col, Form, Button } from 'react-bootstrap';
+import '../style/Contact.css';
 
 function Contact() {
   const [name, setName] = useState('');
@@ -57,16 +56,15 @@ function Contact() {
 
   return (
     <section id="contact">
-      <div className="container">
-        <div className="row">
-          <div className="col-lg-8 mx-auto">
-            <h2>Contact Me</h2>
-            <form onSubmit={handleSubmit} noValidate>
-              <div className="form-group">
-                <label htmlFor="name">Name</label>
-                <input
+      <Container>
+        <Row>
+          <Col lg={8} className="mx-auto">
+          <h2 className="contact-header">Contact Me</h2>            <Form onSubmit={handleSubmit} noValidate>
+              <Form.Group>
+                <Form.Label htmlFor="name">Name:</Form.Label>
+                <Form.Control
                   type="text"
-                  className={`form-control ${nameError ? 'is-invalid' : ''}`}
+                  className={nameError ? 'is-invalid' : ''}
                   id="name"
                   name="name"
                   value={name}
@@ -78,12 +76,12 @@ function Contact() {
                     Name must be more than 5 characters
                   </div>
                 )}
-              </div>
-              <div className="form-group">
-                <label htmlFor="email">Email</label>
-                <input
+              </Form.Group>
+              <Form.Group>
+                <Form.Label htmlFor="email">Email:</Form.Label>
+                <Form.Control
                   type="email"
-                  className={`form-control ${emailError ? 'is-invalid' : ''}`}
+                  className={emailError ? 'is-invalid' : ''}
                   id="email"
                   name="email"
                   value={email}
@@ -93,30 +91,29 @@ function Contact() {
                 {emailError && (
                   <div className="invalid-feedback">A valid email is required</div>
                 )}
-              </div>
-              <div className="form-group">
-                <label htmlFor="message">Message</label>
-                <textarea
-                  className={`form-control ${messageError ? 'is-invalid' : ''}`}
+              </Form.Group>
+              <Form.Group>
+                <Form.Label htmlFor="message">Message:</Form.Label>
+                <Form.Control
+                  as="textarea"
+                  className={messageError ? 'is-invalid' : ''}
                   id="message"
                   name="message"
                   rows="5"
                   value={message}
                   onChange={handleMsgChange}
-                ></textarea>
+                />
                 {messageError && (
                   <div className="invalid-feedback">
                     Message must be at least 150 characters
                   </div>
                 )}
-              </div>
-              <button type="submit" className="btn btn-primary">
-                Send Message
-              </button>
-            </form>
-          </div>
-        </div>
-      </div>
+              </Form.Group>
+              <Button type="submit" className="custom-send-message-button">Send Message</Button>
+            </Form>
+          </Col>
+        </Row>
+      </Container>
     </section>
   );
 }

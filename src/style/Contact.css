@@ -1,0 +1,27 @@
+.contact-header {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-size: 50px;
+  }
+
+.custom-send-message-button {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 10px 24px;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+  }
+  
+  .custom-send-message-button:hover {
+    background-color: #16651a; 
+    color: white;
+  }
+  

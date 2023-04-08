@@ -1,7 +1,12 @@
 
 /* PORTFOLIO.JS SECTION */
-/* Custom styles to override Bootstrap defaults */
-/* src/style/Portfolio.css */
+
+.portfolio-title {
+  text-align: center;
+  margin-top: 0rem;
+  margin-bottom: 2.6rem;
+  font-size: 55px;
+}
 
 body {
     font-family: 'Arial', sans-serif;
