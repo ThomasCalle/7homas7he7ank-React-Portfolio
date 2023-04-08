@@ -1,34 +1,39 @@
-import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faYoutube, faLinkedin, faTiktok } from '@fortawesome/free-brands-svg-icons';
+import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faGithub,
+  faYoutube,
+  faLinkedin,
+  faTiktok,
+} from "@fortawesome/free-brands-svg-icons";
 import "../style/Footer.css";
 
 // Array of social media objects with name, url, icon and color
 const socials = [
   {
-    name: 'GitHub',
-    url: 'https://github.com/ThomasCalle',
+    name: "GitHub",
+    url: "https://github.com/ThomasCalle",
     icon: faGithub,
-    color: '#5DE512'
+    color: "#5DE512",
   },
   {
-    name: 'YouTube',
-    url: 'https://www.youtube.com/@thoscalle4104',
+    name: "YouTube",
+    url: "https://www.youtube.com/@thoscalle4104",
     icon: faYoutube,
-    color: '#FF0000'
+    color: "#FF0000",
   },
   {
-    name: 'LinkedIn',
-    url: 'https://www.linkedin.com/in/thomas-calle/',
+    name: "LinkedIn",
+    url: "https://www.linkedin.com/in/thomas-calle/",
     icon: faLinkedin,
-    color: '#2EACE8'
+    color: "#2EACE8",
   },
   {
-    name: 'TikTok',
-    url: 'https://www.tiktok.com/@thoscalle?lang=en',
+    name: "TikTok",
+    url: "https://www.tiktok.com/@thoscalle?lang=en",
     icon: faTiktok,
-    color: 'white'
-  }
+    color: "white",
+  },
 ];
 
 // Footer component
@@ -38,9 +43,22 @@ const Footer = () => {
       <div className="container">
         <section className="social-icons-wrapper d-flex flex-md-row justify-content-center my-3">
           {socials.map(({ name, url, icon, color }) => (
-            <div key={name} className="d-flex flex-column align-items-center mx-md-2 transparent-bg">
-              <a href={url} className={`icon ${name}`} target="_blank" rel="noreferrer">
-                <FontAwesomeIcon icon={icon} bounce size="3x" style={{ color: color }} />
+            <div
+              key={name}
+              className="d-flex flex-column align-items-center mx-md-2 transparent-bg"
+            >
+              <a
+                href={url}
+                className={`icon ${name}`}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={icon}
+                  bounce
+                  size="3x"
+                  style={{ color: color }}
+                />
               </a>
               <a href={url} target="_blank" rel="noreferrer">
                 <span className="d-inline-block mx-1 name">{name}</span>
@@ -58,5 +76,5 @@ const Footer = () => {
     </footer>
   );
 };
-
+// Export Footer
 export default Footer;

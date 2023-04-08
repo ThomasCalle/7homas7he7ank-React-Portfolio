@@ -4,7 +4,7 @@ import "../style/Project.css";
 // Project component
 function Project(props) {
   return (
-        // Card container for each project
+    // Card container for each project
     <div className="card">
       <h5 className="card-title">{props.title}</h5>
       <a href={props.deployedLink} target="_blank" rel="noreferrer">
@@ -33,5 +33,5 @@ function Project(props) {
     </div>
   );
 }
-
+// Export Project
 export default Project;

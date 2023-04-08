@@ -15,8 +15,14 @@ function Header() {
         <Row className="justify-content-center">
           <Col xs="auto">
             <h1 className="text-white" style={{ fontSize: "76px" }}>
-              <FontAwesomeIcon icon={solid} style={{ color: "#white", fontSize: "68px" }} />
-              <Link to="/7homas7he7ank-react-portfolio/" className="text-white text-decoration-none pt-3">
+              <FontAwesomeIcon
+                icon={solid}
+                style={{ color: "#white", fontSize: "68px" }}
+              />
+              <Link
+                to="/7homas7he7ank-react-portfolio/"
+                className="text-white text-decoration-none pt-3"
+              >
                 Thomas Calle
               </Link>
               <FontAwesomeIcon
@@ -32,5 +38,5 @@ function Header() {
     </>
   );
 }
-
+// Export Header
 export default Header;

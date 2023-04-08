@@ -3,7 +3,7 @@ import { Container, Row, Col, Form, Button } from "react-bootstrap";
 import "../style/Contact.css";
 
 function Contact() {
-    // Set initial state for name, email, message, and form errors
+  // Set initial state for name, email, message, and form errors
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
@@ -11,26 +11,26 @@ function Contact() {
   const [emailError, setEmailError] = useState(false);
   const [messageError, setMessageError] = useState(false);
   const [messageSent, setMessageSent] = useState(false);
-  
+
   // Handle name input changes
   const handleNameChange = (e) => {
     setName(e.target.value);
     setNameError(false);
   };
 
-    // Handle email input changes
+  // Handle email input changes
   const handleEmailChange = (e) => {
     setEmail(e.target.value);
     setEmailError(false);
   };
 
-    // Handle message input changes
+  // Handle message input changes
   const handleMsgChange = (e) => {
     setMessage(e.target.value);
     setMessageError(false);
   };
 
-    // Validate email format using regex
+  // Validate email format using regex
   const validateEmail = (email) => {
     return /\S+@\S+\.\S+/.test(email);
   };
@@ -40,7 +40,7 @@ function Contact() {
     e.preventDefault();
     let valid = true;
 
-        // Validate input fields and set errors if necessary
+    // Validate input fields and set errors if necessary
     if (name.length <= 5) {
       setNameError(true);
       valid = false;
@@ -54,7 +54,7 @@ function Contact() {
       valid = false;
     }
 
-        // If all fields are valid, log form data and reset inputs
+    // If all fields are valid, log form data and reset inputs
     if (valid) {
       console.log(`Name: ${name}, Email: ${email}, Message: ${message}`);
       setName("");
@@ -63,7 +63,7 @@ function Contact() {
       setMessageSent(true);
     }
   };
-  
+
   // Render the contact form
   return (
     <section id="contact">
