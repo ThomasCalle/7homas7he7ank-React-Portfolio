@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 const Navigation = () => {
   return (
     // Bootstrap Navbar
-    <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
+    <Navbar bg="dark" variant="dark" expand="lg" sticky="top" className="py-0.5 mt-0">
       <Container>
           <Navbar.Brand as={Link} to="/7homas7he7ank-react-portfolio/">Thomas Calle</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

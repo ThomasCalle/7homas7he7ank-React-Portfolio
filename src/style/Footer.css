@@ -1,6 +1,20 @@
 /* FOOTER SECTION */
+
 .footer {
   position: fixed;
   bottom: 0;
   width: 100%;
 }
+
+.footer-icon-size {
+    font-size: 2.2rem; /* Set the desired size in rem */
+  }
+
+  .social-icons-wrapper {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+ /* FOR FUTURE USE AND DEVELOPMENT FOR THE FOOTER SECTION */
+
+
