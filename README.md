@@ -98,6 +98,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 ## Built With:
 - Saiyan Pride
 - Dynamic JavaScript
+- How To Create React.md: [Click to Preview Document](./HowToCreateReact.md)
 - JSON: [JSON](https://www.npmjs.com/package/json)
 - Mongoose: [7.0.3](https://www.npmjs.com/package/mongoose)
 - Express: [4.18.2](https://www.npmjs.com/package/express)
@@ -138,7 +139,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
   
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [Open Source Initiative Link](https://opensource.org/licenses/MIT)
 
-### Copyright © 2023 [Thomas](https://github.com/ThomasCalle)
+### Copyright © 2023 [Thomas Calle](https://github.com/ThomasCalle)
 ```md
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -161,8 +162,8 @@ SOFTWARE.
 
 ## Author
 
-Follow me on Github at [Thomas](https://github.com/ThomasCalle). Additional questions or concerns? feel free to contact us.
+Follow me on Github at [Thomas Calle](https://github.com/ThomasCalle). Additional questions or concerns? feel free to contact me.
 
 Until next, see you on the otherside!
 
-© 2023 [Thomas](https://github.com/ThomasCalle). Confidential and Proprietary. All Rights Reserved.
+© 2023 [Thomas Calle](https://github.com/ThomasCalle). Confidential and Proprietary. All Rights Reserved.

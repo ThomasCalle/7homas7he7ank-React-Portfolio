@@ -18,6 +18,9 @@ build
 public
 .logo.svg
 logo.svg
+package-lock.json
+.package-lock.json
+/.package-lock.json
 
 
 # Logs
