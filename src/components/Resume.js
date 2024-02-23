@@ -56,7 +56,7 @@ function Resume() {
         </Row>
         <Row>
           <Col>
-            <h3>Work Experience</h3>
+            <h3>Professional Work Experience</h3>
             <hr className="star-secondary" />
             <div className="resume-item">
               <h4>Full-Stack Developer, Elden Lord</h4>
