@@ -13,7 +13,7 @@ const socials = [
   },
   {
     name: "YouTube",
-    url: "https://www.youtube.com/@thoscalle4104",
+    url: "https://youtube.com/playlist?list=PLEtXru6ajuny6_PWo8rycRz7L8OPLpV3_&si=HCRJUr1pXSHm3t3T",
     icon: faYoutube,
     color: "#FF0000",
   },

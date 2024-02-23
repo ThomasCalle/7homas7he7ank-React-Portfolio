@@ -45,14 +45,12 @@ function Resume() {
             <h3>Education</h3>
             <hr className="star-secondary" />
             <div className="resume-item">
-              <h4>Bachelor of Science in Computer Science</h4>
-              <h5>University of Toronto, 2020-2024</h5>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-                cursus bibendum magna, vitae dapibus felis ultricies ut. Sed ac
-                odio eget est convallis ullamcorper. Duis bibendum vestibulum
-                risus, non convallis odio aliquam eu.
-              </p>
+              <h4>Computer Science Degree in Software Development Spc. Full Stack Web Development</h4>
+              <h5>University of Toronto April 2023</h5>
+              <ul>
+              <li>Graduated top of class (4.0 GPA)</li>
+              <li>Relevant Curriculum: HTML5, CSS3, JavaScript, Git, GitHub, MongoDB, Express.js, React.js, Node.js, Front-end, Back-end, Full Stack, MERN Stack, DOM, MVC, ORM, CLI, PWA’s, OOP, jQuery, Bootstrap, API, SQL, MySQL, GraphQL, SWE, SDLC, Agile Methodology (SCRUM & Kanban), UI/UX Design, Principles, Wireframe, Responsive Web Design & Web Accessibility.</li>
+              </ul>
             </div>
           </Col>
         </Row>
