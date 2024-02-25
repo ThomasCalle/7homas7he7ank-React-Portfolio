@@ -69,7 +69,7 @@ function Resume() {
               </p>
             </div>
             <div className="resume-item">
-              <h4>Web Developer Intern</h4>
+              <h4>Web Developer Intern.</h4>
               <h5>DELL CND Inc., Summer 2022-2023</h5>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
