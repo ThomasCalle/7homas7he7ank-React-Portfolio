@@ -46,7 +46,7 @@ function Resume() {
             <hr className="star-secondary" />
             <div className="resume-item">
               <h4>Computer Science Degree in Software Development Spc. Full Stack Web Development</h4>
-              <h5>University of Toronto April 2023</h5>
+              <h5>University of of of of Toronto April 2023</h5>
               <ul>
               <li>Graduated top of class (4.0 GPA)</li>
               <li>Relevant Curriculum: HTML5, CSS3, JavaScript, Git, GitHub, MongoDB, Express.js, React.js, Node.js, Front-end, Back-end, Full Stack, MERN Stack, DOM, MVC, ORM, CLI, PWA’s, OOP, jQuery, Bootstrap, API, SQL, MySQL, GraphQL, SWE, SDLC, Agile Methodology (SCRUM & Kanban), UI/UX Design, Principles, Wireframe, Responsive Web Design & Web Accessibility.</li>
