@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/7homas7he7ank-React-Portfolio/static/css/main.aa9c767a.css",
-    "main.js": "/7homas7he7ank-React-Portfolio/static/js/main.f6fb317c.js",
+    "main.js": "/7homas7he7ank-React-Portfolio/static/js/main.805ce9b8.js",
     "static/media/ThomasChessBlog.GIF": "/7homas7he7ank-React-Portfolio/static/media/ThomasChessBlog.f0589692f77a475b1217.GIF",
     "static/media/WorkDayPlanner.GIF": "/7homas7he7ank-React-Portfolio/static/media/WorkDayPlanner.7d20d03c76e6a04fb5f8.GIF",
     "static/media/Weather.GIF": "/7homas7he7ank-React-Portfolio/static/media/Weather.c348184b58aca4bf34c0.GIF",
@@ -9,13 +9,13 @@
     "static/media/WebAPI_.GIF": "/7homas7he7ank-React-Portfolio/static/media/WebAPI_.29eb829103dad9d48393.GIF",
     "static/media/Portfolio_Headshot.png": "/7homas7he7ank-React-Portfolio/static/media/Portfolio_Headshot.2a9b0fb765f4b6479857.png",
     "static/media/StackDev.JPEG": "/7homas7he7ank-React-Portfolio/static/media/StackDev.12185f0dcba00cba0b1f.JPEG",
-    "static/media/ThomasCalleResumeMay(2022).pdf": "/7homas7he7ank-React-Portfolio/static/media/ThomasCalleResumeMay(2022).f5bb3ddb27ff5b508836.pdf",
+    "static/media/THOMAS-CALLE-SOFTWARE-DEVELOPER-FULLSTACK-RESUME-MARCH-2024.pdf": "/7homas7he7ank-React-Portfolio/static/media/THOMAS-CALLE-SOFTWARE-DEVELOPER-FULLSTACK-RESUME-MARCH-2024.b103c883ff4bdf0e327d.pdf",
     "index.html": "/7homas7he7ank-React-Portfolio/index.html",
     "main.aa9c767a.css.map": "/7homas7he7ank-React-Portfolio/static/css/main.aa9c767a.css.map",
-    "main.f6fb317c.js.map": "/7homas7he7ank-React-Portfolio/static/js/main.f6fb317c.js.map"
+    "main.805ce9b8.js.map": "/7homas7he7ank-React-Portfolio/static/js/main.805ce9b8.js.map"
   },
   "entrypoints": [
     "static/css/main.aa9c767a.css",
-    "static/js/main.f6fb317c.js"
+    "static/js/main.805ce9b8.js"
   ]
 }
