@@ -34,6 +34,38 @@ function Resume() {
         </Row>
         <Row>
           <Col>
+              <hr className="star-secondary" />
+              <h3> Top Projects (3) </h3>
+                <div className="resume-item">
+                <h4><a href="https://github.com/ThomasCalle/Thomas-SQL-Employee-Tracker" target="_blank">Human Resources SQL Employee Tracker (Jan 2023 - Apr 2023)</a></h4>
+                    <ul>
+                        <li><strong>Technology:</strong> GitHub | JavaScript | Node.js | Inquirer | MySQL</li>
+                        <li>SQL Database Management: Developed a CLI application using Node.js, Inquirer.js, and MySQL2 for dynamic CRUD operations on an SQL employee database.</li>
+                        <li>User-Centric CLI: Created a user-friendly interface for seamless management of employee data, with a focus on UX.</li>
+                    </ul>
+                </div>
+                <div className="resume-item">
+                <h4><a href="https://github.com/ThomasCalle/Thomas-Model-View-Controller-MVC-Tech-Blog" target="_blank">Model View Controller (MVC) Chess Blog (Jan 2023 - Apr 2023)</a></h4>
+                  <ul>
+                    <li><strong>Technology:</strong> GitHub, Express, JavaScript, Handlebars, ORM, MVC.</li>
+                    <li>Deployed CMS-style Heroku platform, integrating MVC for streamlined blog and comment CRUD operations.</li>
+                    <li>Enhanced UI/UX and security, using bcrypt for encryption and intuitive design for easy navigation.</li>
+                    <li>Combined Node.js, Express.js, and Sequelize ORM for robust backend, with secure session management.</li>
+                  </ul>
+                </div>
+                <div className="resume-item">
+                <h4><a href="https://github.com/ThomasCalle/10-Things-To-Do-In-Toronto" target="_blank">Scrum Lead | 10 Things to do in Toronto (Jan 2023 - Apr 2023)</a></h4>
+                  <ul>
+                      <li><strong>Technology:</strong> GitHub, HTML5, CSS3, JavaScript, API, Agile.</li>
+                      <li>Developed accessible and responsive design for multi-device compatibility, focusing on visual impairment.</li>
+                      <li>Integrated Server-Side APIs for dynamic, user-friendly interactions across desktop and mobile platforms.</li>
+                      <li>Applied Agile methodologies, using Kanban for team collaboration and efficient MVP delivery.</li>
+                  </ul>
+                </div>
+            </Col>
+        </Row>
+        <Row>
+          <Col>
           <hr className="star-secondary" />
             <h3>Full Stack Development Skills</h3>
             {/* <hr className="star-secondary" /> */}
@@ -65,11 +97,27 @@ function Resume() {
             {/* <hr className="star-secondary" /> */}
             <div className="resume-item">
               <h4>Computer Science Degree in Software Development Spc. Full Stack Web Development</h4>
-              <h5>University of Toronto April 2023</h5>
+              <h5>University of Toronto | Toronto, Ontario | Jan 2023 - April 2023</h5>
               <ul>
                 <li>Achievements: Top of class (4.0 GPA)</li>
-                <li>Projects: (20) Team Projects: (3)</li>
-                <li>Curriculum: HTML5, CSS3, JavaScript, Git, GitHub, MongoDB, Express.js, React.js, Node.js, Full Stack, MERN Stack, DOM, MVC, ORM, CLI, PWA’s, OOP, jQuery, Bootstrap, API, SQL, MySQL, GraphQL, SWE, SDLC, Agile Methodology (SCRUM & Kanban), UI/UX Design, Principles, Wireframe, Responsive Web Design & Web Accessibility.</li>
+                <li>Curriculum: Unit Projects: (20) Team Projects: (3)</li>
+                {/* <li>Curriculum: HTML5, CSS3, JavaScript, Git, GitHub, MongoDB, Express.js, React.js, Node.js, Full Stack, MERN Stack, DOM, MVC, ORM, CLI, PWA’s, OOP, jQuery, Bootstrap, API, SQL, MySQL, GraphQL, SWE, SDLC, Agile Methodology (SCRUM & Kanban), UI/UX Design, Principles, Wireframe, Responsive Web Design & Web Accessibility.</li> */}
+              </ul>
+            </div>
+            <div className="resume-item">
+              <h4>Bachelor of Applied Science, Human Resources and Industrial Relations</h4>
+              <h5>University of Toronto | Toronto, Ontario | April 2020 - April 2022</h5>
+              <ul>
+                  <li>GPA: 3.0</li>
+                  <li>Curriculum: Human Resources, Business Management, Finance and Economics, Marketing, Data Analysis, Strategy.</li>
+              </ul>
+            </div>  
+            <div className="resume-item">
+              <h4>Associate Degree. Humanities, General Arts & Science.</h4>
+              <h5>George Brown College | Toronto, Ontario | April 2018 - April 2020</h5>
+              <ul>
+                  <li>GPA: 3.0</li>
+                  <li>Curriculum: Project Management, Research Methods, Psychology, Sociology, Philosophy, Research and Writing Analysis.</li>
               </ul>
             </div>
           </Col>
@@ -82,7 +130,7 @@ function Resume() {
             <div className="resume-item">
               <h4>Digital Marketing & Branding Manager</h4>
               {/* <h5>Client @hasbulla.hushetskiy 2021 - Present</h5> */}
-              <h5>Client <a href="https://www.instagram.com/hasbulla.hushetskiy/?hl=en" target="_blank" rel="noopener noreferrer">@hasbulla.hushetskiy</a>| Toronto, Ontario December 2021 - Present</h5>
+              <h5>Client <a href="https://www.instagram.com/hasbulla.hushetskiy/?hl=en" target="_blank" rel="noopener noreferrer">@hasbulla.hushetskiy</a> | Toronto, Ontario December 2021 - Present</h5>
               <ul>
                 <li>Project Link: <a href="https://www.instagram.com/ar/245529254340388/" target="_blank" rel="noopener noreferrer"> Hasbulla Instagram AR Filter</a></li>
                 <li>Developed and marketed "Hasbulla Filter" on Instagram and Facebook, generating over 16.4 million impressions and (335,000) shares, enhancing visibility</li>
@@ -139,8 +187,8 @@ function Resume() {
         </Row>
         <Row>
           <Col>
-            <hr className="star-secondary" />
-            <h3>Proficiencies</h3>
+            {/* <hr className="star-secondary" />
+            <h3>Proficiencies</h3> */}
             {/* <ul>
               <li>HTML/CSS</li>
               <li>JavaScript</li>
