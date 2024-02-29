@@ -2,7 +2,8 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import "../style/Resume.css";
-import PDF from "../documentation/ThomasCalleResumeMay(2022).pdf";
+import PDF from "../documentation/THOMAS-CALLE-SOFTWARE-DEVELOPER-FULLSTACK-RESUME-MARCH-2024.pdf";
+
 
 // Resume component
 function Resume() {

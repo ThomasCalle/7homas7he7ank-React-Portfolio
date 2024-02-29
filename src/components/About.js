@@ -23,31 +23,24 @@ function About() {
                 <Card.Title className="text-center mb-4">
                   About Thomas Calle
                 </Card.Title>
-                <Card.Text>
-                  Thomas Calle, a passionate 29-year-old, has discovered his
-                  purpose across a diverse array of fields, including
-                  Philosophy, Coding, Sports Science, and Philanthropy. As a
-                  dedicated polymath, Thomas' intellect and steadfast
-                  determination to excel led him to embark on an unforgettable
-                  journey at the University of Toronto's esteemed 12-week
-                  Full-Stack Developer Coding Bootcamp. Fueled by insatiable
-                  curiosity and a genuine desire to make a difference in the
-                  world, Thomas committed himself to mastering his craft and
-                  pursuing excellence in every endeavor, regardless of the
-                  challenges he faced.
-                </Card.Text>
-                <Card.Text>
-                  On one occasion, his former boss shared a profound piece of
-                  advice with Thomas, urging him to leave a lasting impression
-                  wherever he went. Embracing this wisdom wholeheartedly, Thomas
-                  has faced every challenge with unyielding enthusiasm and an
-                  unwavering commitment to excellence. This journey has
-                  transformed him into an invaluable asset for any team or
-                  organization. As Thomas continues to forge ahead on his quest
-                  for knowledge and growth, the horizon of possibilities extends
-                  infinitely before him, leaving us eagerly anticipating the
-                  next thrilling chapter in his never-ending adventure.
-                </Card.Text>
+                  <Card.Text>
+                    Welcome, I'm Thomas Calle, a 29-year-old whose professional and personal pursuits have been as diverse as they are profound. My journey spans the intellectual challenges of Philosophy, the precision of Coding, the discipline of Sports Science, and the dedication of Philanthropy. Beyond my academic endeavors, my career has evolved over 14 years through the spheres of business operations, customer service, human resources, alongside strides in marketing, branding, and digital innovation.
+                  </Card.Text>
+                  <Card.Text>
+                    My education was enriched at the University of Toronto, where I delved into a Full Stack Developer Coding Bootcamp, refining my technical acumen and reinforcing my problem-solving skills. This background in technology complements my vast experience, making me a versatile and strategic thinker in any professional setting.
+                  </Card.Text>
+                  <Card.Text>
+                    A piece of wisdom that has profoundly influenced my journey was shared by a mentor: "Leave a lasting impression wherever you go." This philosophy has fueled my approach to every challenge, driving me to exceed expectations and become an essential contributor to any project or team.
+                  </Card.Text>
+                  <Card.Text>
+                    In an unexpected twist, I've also been fortunate in modeling and acting, realms that, while distinct, have enhanced my professional trajectory. These experiences have not only broadened my network but also honed my presentation and communication skills, further enriching my professional toolkit.
+                  </Card.Text>
+                  <Card.Text>
+                    I view every situation as an opportunity to learn and grow, applying a unique blend of analytical and creative thinking to achieve outstanding results. As a lifelong learner, I am eager to integrate into your organization, aligning my diverse skills with your strategic goals to drive success and innovation.
+                  </Card.Text>
+                  <Card.Text>
+                    Together, we can forge a path of continuous improvement and excellence. I am committed to contributing to your team's success, drawing on my broad experiences and relentless drive. Let's shape the future with confidence, professionalism, and a shared commitment to excellence.
+                  </Card.Text>
               </Card.Body>
             </Card>
           </Col>

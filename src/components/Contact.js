@@ -71,6 +71,10 @@ function Contact() {
         <Row>
           <Col lg={8} className="mx-auto">
             <h2 className="contact-header">Contact Me</h2>
+              <p className="email-direct">
+                *Currently Under Construction* please 
+                <a href="mailto:thos.calle@gmail.com" style={{ marginLeft: '5px' }}>click this link to email me directly.</a>
+              </p>
             {messageSent && (
               <div className="alert alert-success" role="alert">
                 Your message has been sent successfully!
